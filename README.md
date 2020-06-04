@@ -1,2 +1,1 @@
-A list of Java excercises about the principles of object-orienting programming, and basic dynamic structures (Stack, Queue, List, B-Tree).
-
+Una lista di esercizi Java sui principi della programmazione ad oggetti e strutture dinamiche (pile, code, liste, alberi binari).
