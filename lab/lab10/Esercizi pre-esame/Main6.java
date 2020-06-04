@@ -58,13 +58,16 @@ class List<T extends Comparable<T>> {
 
     public void moveMaxToEnd() {
         
+        //Primo elemento della lista
         Node<T> prev = first;
 
+        //Check per il primo elemento nullo
         if(prev!=null){
             Node<T> p = prev.next;
             T park = prev.elem;
 
             while(p!=null){
+                //Controllo che l'elemento precedente sia maggiore del successivo
                 if(prev.elem.compareTo(p.elem) > 0){
                     park = p.elem;
                     p.elem = prev.elem;
