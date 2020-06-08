@@ -26,9 +26,8 @@ public abstract class Tree{
     public abstract Tree filter_le(int x);
     //Ritorna tutti gli elementi dell'albero in una lista, in ordine crescente
     public abstract List collect();
-    /*
     //Ritorna l'elemento di indice i dell'albero  (indici validi: da 0 a size()-1)
     public abstract int get(int i);
-    */
+    
 }
 

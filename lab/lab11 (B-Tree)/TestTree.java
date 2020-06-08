@@ -2,11 +2,6 @@
 import java.util.*; // ci serve la classe Random
 
 public class TestTree {
-
-	public static void gay(String gay){
-		System.out.println(gay);
-		gay("gay");
-	}
 	
 	public static void main(String[] args) {
 		Random r = new Random(); // Generatore di numeri casuali
@@ -44,6 +39,10 @@ public class TestTree {
 		List l = new Nil();
 		l = t.collect();
 		System.out.println("Lista contente gli elementi di t, in ordine crescente:\n  " + l);
+
+		//Test ricerca elemento di indice i con t.get(i)
+		int i = 2;
+		System.out.println("Elemento di t di indice i: " + t.get(i));
 
 	}
 }

@@ -57,6 +57,7 @@ public class Nil extends List {
 
     //int get(int i)
     public int get(int i){
+        assert false: "Indice non compreso fra 0 e la dimensione della lista";
         return -1;
     }
 

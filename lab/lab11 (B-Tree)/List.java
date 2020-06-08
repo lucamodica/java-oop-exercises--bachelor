@@ -22,24 +22,4 @@ public abstract class List {
     // Aggiungi alla lista tutti gli elementi di @l, e ritorna la nuova lista creata.
     public abstract List append(List l);
 
-
-    //**NUOVI METODI**
-    //Somma di tutti gli elementi della lista
-    public abstract int sum();
-
-    //Output dell'elemento all'indice i
-    public abstract int get(int i);
-
-    //Ritorna una lista con tutti gli elementi della lista incrementati di 1
-    public abstract List succ();
-
-    //Sotto-lista con tutti gli elementi <= di x
-    public abstract List filter_le(int x);
-
-    //Sotto-lista con tutti gli elementi > di x
-    public abstract List filter_gt(int x);
-
-    //Output di una lista che è l'intersezione con un Lista l
-    public abstract List intersect(List l);
-
 }

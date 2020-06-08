@@ -105,8 +105,20 @@ public class Branch extends Tree {
     }
     //Metodo collect()
     public List collect(){
-        return new Cons(elem, right.collect());
+        return left.collect().append(new Cons(elem, right.collect()));
+    }   
+    //Metodo get(int i)
+    public int get(int i){
+        assert i >= 0 && i < size()-1: "Indice non compreso fra 0 e la dimensione dell'albero - 1";
+        if(i < left.size()){
+            return left.get(i);
+        }
+        else if(i == left.size()){
+            return elem;
+        }
+        return right.get(i - left.size() - 1);
     }
+
 
 
     // Metodo che gestisce la parte NON pubblica della stampa.

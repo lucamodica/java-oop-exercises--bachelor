@@ -49,6 +49,11 @@ public class Leaf extends Tree {
     public List collect(){
         return new Nil();
     }
+    //Metodo get(int i) (verrà attivata un assert, poichè la foglia non è compresa negli elementi)
+    public int get(int i){
+        assert false: "Indice non compreso fra 0 e la dimensione dell'albero - 1";
+        return -1;
+    }
 
 
 
