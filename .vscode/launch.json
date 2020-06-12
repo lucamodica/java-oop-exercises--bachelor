@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - es5",
+            "request": "launch",
+            "mainClass": "es5",
+            "projectName": "Programming2_9e73809a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - es6",
+            "request": "launch",
+            "mainClass": "es6",
+            "projectName": "Programming2_9e73809a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - es3",
+            "request": "launch",
+            "mainClass": "es3",
+            "projectName": "Programming2_9e73809a"
+        },
+        {
+            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
             "mainClass": "${file}"
