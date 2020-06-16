@@ -9,12 +9,20 @@ class Node {
 }
 
 class es4{
+    // 1 --> 2 --> 3
+    //10 --> 20 --> 30
+    //rev(2,(1,q))
+    //rev(3,(2,(1,q)))
+    //rev(null,(3,(2,(1,q))))
+    //RETURN
    public static Node rev(Node p, Node q){
         if (p==null)   
             return q;
         else
             return rev(p.getNext(),new Node(p.getElem(),q));
     }
+
+    
          
     //p={1,2,3}
     static Node p = new Node(1,new Node(2,new Node(3,null)));

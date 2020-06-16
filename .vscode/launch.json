@@ -1,48 +1,17 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-    "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - es5",
+            "name": "CodeLens (Launch) - TestLists",
             "request": "launch",
-            "mainClass": "es5",
+            "mainClass": "TestLists",
             "projectName": "Programming2_9e73809a"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - es6",
-            "request": "launch",
-            "mainClass": "es6",
-            "projectName": "Programming2_9e73809a"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - es3",
-            "request": "launch",
-            "mainClass": "es3",
-            "projectName": "Programming2_9e73809a"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch) - Current File",
-            "request": "launch",
-            "mainClass": "${file}"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-TestList<Programming2_9e73809a>",
+            "name": "CodeLens (Launch) - TestList",
             "request": "launch",
             "mainClass": "TestList",
-            "projectName": "Programming2_9e73809a"
-        },
-        {
-            "type": "java",
-            "name": "Debug (Launch)-TestTree<Programming2_9e73809a>",
-            "request": "launch",
-            "mainClass": "TestTree",
             "projectName": "Programming2_9e73809a"
         }
     ]
